@@ -49,8 +49,8 @@ function ExpensesForm({
 
     const desIsValid = expenseData.des.trim().length > 0;
 
-    console.log(dateIsValid)
-    console.log(inputs.date)
+    // console.log(dateIsValid)
+    // console.log(inputs.date)
     if (!amountIsValid || !dateIsValid || !desIsValid) {
       setInputs((curInputs) => {
         return {
